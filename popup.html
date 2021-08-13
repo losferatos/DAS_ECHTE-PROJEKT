@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width = device-width, initial-scale = 1.0" />  
+	<meta name="description" content="Beschreibungstext">
+	<link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <form action="/action_page.php" id="form1">
+        <label for="subject">Titel:</label>
+        <input type="text" id="subject" name="subject"><br><br>       
+    </form>
+    <form action="/action_page.php" id="form2">
+        <label for="beschreibung">Beschreibung:</label> 
+        <textarea id="beschreibung" name="beschreibung" cols="25" rows="5"></textarea>
+    </form>
+
+    <label for="startdate">Startdatum</label>
+    <input type="date" name="startdate" id="startdate">
+
+    <label for="starttime">Startzeit</label>
+    <input type="time" name="starttime" id="starttime">
+
+    <label for="enddate">Enddatum</label>
+    <input type="date" name="enddate" id="enddate">
+
+    <label for="endtime">Endzeit</label>
+    <input type="time" name="endtime" id="endtime">
+
+    <input type="submit" value="Erstellen" id="submit_button">
+
+</body>
+</html>
