@@ -1,0 +1,14 @@
+TABLES:
+	#USERS
+		user_id; username; password; is_admin		
+	#CALENDARS
+		calendar_id; owner		
+	#EVENTS
+		event_id; calendar_id; owner; subject; starttime; endtime	
+	#GROUPS
+		group_id; calendar_id		
+	#USER_GROUPS
+		group_id; user_id
+		
+groups=alle verfügbaren Gruppen
+user_groups=Zuweisung von User zu Gruppe
