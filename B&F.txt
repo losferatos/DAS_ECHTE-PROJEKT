@@ -3,9 +3,7 @@ Bugs
 -KALENDERAUSWAHL ist nach unten verschoben
 -KALENDERAUSWAHL bei Usern eigenen Kalender als default setzen
 -TERMIN Zeitauswahl Text ist nicht aligned (muss nach links)
--TERMIN Ablehnen als Lehrer -> Email geht nicht raus!
+-TERMIN Ablehnen als Lehrer -> Email geht nicht raus MERCURY!
 -GUI komplett auf Deutsch übersetzen
 -
-
-
 
