@@ -1,0 +1,18 @@
+result = [a for a in numbers if a > 5]
+return [num for num in range(integer, limit + 1) if num % integer == 0]
+return list(range(integer, limit+1, integer))
+
+return "Error" if isinstance(a, str) else  a * 50 + 6
+return True if beast[0] == dish[0] and beast[-1] == dish[-1] else False
+return beast[0]==dish[0] and dish[-1]==beast[-1]
+
+add = lambda a, b: a + b
+
+return 'Bang' * (x % 3 == 0) + 'Boom' * (x % 5 == 0) or 'Miss'
+return ("Miss","Bang","Boom","BangBoom")[(x%3==0) + 2*(x%5==0)]
+return"BangBoom" if not x % 15 else ("Boom" if not x % 5 else ("Bang" if not x % 3 else "Miss"))
+
+return sum(price for letter in name)
+
+plural = '' if diff == 1 else 's'
+
