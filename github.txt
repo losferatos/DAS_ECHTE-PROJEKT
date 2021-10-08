@@ -1,0 +1,13 @@
+#clone:
+	local copy of hosted repo
+#add:
+	track files and changes in git	
+#commit:
+	save to git	
+#push:
+	upload to git	
+#pull:
+	ins live project aufnehmen
+#init:
+	neues project local starten???
+#status:
