@@ -1,0 +1,30 @@
+<?php
+
+		#CONDITION	 ? #FALSE : #TRUE 
+return array_sum($a) % 2 ? 'odd' : 'even';
+
+#STRINGS:
+	str_replace($find, $replace, $inString)
+	str_repeat($string,$times) 
+	str_shuffle($string) 
+	str_split($string,[O:$length])) 			=> split by length
+	str_word_count($string)
+	strrev($string)
+	strpos($string, $find) 	
+	strlen($string)
+	strtolower($string) 
+	strtoupper($string)
+	join("seperator",$string)					
+	explode("separator",$string)				=> split by seperator
+	similar_text($string1,$string2,$percent)	=> Übereinstimmung
+
+#ARRAYS:
+	array_push($array, $valueOne,...) 
+	array_unique($array)
+	array_sum($array)
+	in_array($search, $array) 
+	count($array);									=> arr.length
+	implode("seperator",$array)
+	
+?>
+

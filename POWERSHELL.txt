@@ -1,0 +1,22 @@
+### FILES
+	-path "C:\..."
+	create files:
+		new-item NAME
+	delete:
+		remove-item NAME
+		
+### OPERATORS
+	=	 !=   <    <=   >    >=
+	-eq, -ne, -lt, -le, -gt, -ge
+	
+	
+	-and, -or, -xor, -not
+	
+### LOOPS
+	for & while
+	foreach($wert in $Array){
+		...statement
+	}
+	
+### MISC
+	Get-Random –Minimum 1 –Maximum 6
